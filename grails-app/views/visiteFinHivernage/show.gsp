@@ -167,24 +167,8 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${visiteFinHivernageInstance?.q123}">
-				<li class="fieldcontain">
-					<span id="q123-label" class="property-label"><g:message code="visiteFinHivernage.q123.label" default="Q123" /></span>
-					
-						<span class="property-value" aria-labelledby="q123-label"><g:fieldValue bean="${visiteFinHivernageInstance}" field="q123"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${visiteFinHivernageInstance?.q124a}">
-				<li class="fieldcontain">
-					<span id="q124a-label" class="property-label"><g:message code="visiteFinHivernage.q124a.label" default="Q124a" /></span>
-					
-						<span class="property-value" aria-labelledby="q124a-label"><g:fieldValue bean="${visiteFinHivernageInstance}" field="q124a"/></span>
-					
-				</li>
-				</g:if>
-			
+
+
 				<g:if test="${visiteFinHivernageInstance?.q124b}">
 				<li class="fieldcontain">
 					<span id="q124b-label" class="property-label"><g:message code="visiteFinHivernage.q124b.label" default="Q124b" /></span>
@@ -239,18 +223,10 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${visiteFinHivernageInstance?.q131b}">
-				<li class="fieldcontain">
-					<span id="q131b-label" class="property-label"><g:message code="visiteFinHivernage.q131b.label" default="Q131b" /></span>
-					
-						<span class="property-value" aria-labelledby="q131b-label"><g:fieldValue bean="${visiteFinHivernageInstance}" field="q131b"/></span>
-					
-				</li>
-				</g:if>
-			
+
 				<g:if test="${visiteFinHivernageInstance?.q132a}">
 				<li class="fieldcontain">
-					<span id="q132a-label" class="property-label"><g:message code="visiteFinHivernage.q132a.label" default="Q132a" /></span>
+					<span id="q132a-label" class="property-label"><g:message code="visite.q132a.label" default="Q132a" /></span>
 					
 						<span class="property-value" aria-labelledby="q132a-label"><g:formatBoolean boolean="${visiteFinHivernageInstance?.q132a}" /></span>
 					
@@ -259,22 +235,14 @@
 			
 				<g:if test="${visiteFinHivernageInstance?.q132b}">
 				<li class="fieldcontain">
-					<span id="q132b-label" class="property-label"><g:message code="visiteFinHivernage.q132b.label" default="Q132b" /></span>
+					<span id="q132b-label" class="property-label"><g:message code="visite.q132b.label" default="Q132b" /></span>
 					
 						<span class="property-value" aria-labelledby="q132b-label"><g:fieldValue bean="${visiteFinHivernageInstance}" field="q132b"/></span>
 					
 				</li>
 				</g:if>
 			
-				<g:if test="${visiteFinHivernageInstance?.q132c}">
-				<li class="fieldcontain">
-					<span id="q132c-label" class="property-label"><g:message code="visiteFinHivernage.q132c.label" default="Q132c" /></span>
-					
-						<span class="property-value" aria-labelledby="q132c-label"><g:fieldValue bean="${visiteFinHivernageInstance}" field="q132c"/></span>
-					
-				</li>
-				</g:if>
-			
+
 			</ol>
 			<g:form url="[resource:visiteFinHivernageInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">

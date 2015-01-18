@@ -89,7 +89,6 @@
           <root url="jar://$USER_HOME$/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar!/" />
           <root url="jar://$USER_HOME$/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar!/" />
           <root url="jar://$USER_HOME$/.m2/repository/org/grails/grails-datastore-gorm-plugin-support/3.1.2.RELEASE/grails-datastore-gorm-plugin-support-3.1.2.RELEASE.jar!/" />
-          <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-orm/4.0.6.RELEASE/spring-orm-4.0.6.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.m2/repository/org/grails/grails-datastore-gorm-hibernate-core/3.1.2.RELEASE/grails-datastore-gorm-hibernate-core-3.1.2.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.m2/repository/org/grails/grails-datastore-gorm-hibernate4/3.1.2.RELEASE/grails-datastore-gorm-hibernate4-3.1.2.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar!/" />
@@ -136,6 +135,11 @@
           <root url="jar:///usr/share/grails/lib/org.apache.ant/ant-junit/jars/ant-junit-1.8.4.jar!/" />
           <root url="jar:///usr/share/grails/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar!/" />
           <root url="jar://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar!/" />
+          <root url="jar://$USER_HOME$/.m2/repository/org/grails/grails-datastore-simple/3.1.2.RELEASE/grails-datastore-simple-3.1.2.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.m2/repository/org/grails/grails-datastore-gorm/3.1.2.RELEASE/grails-datastore-gorm-3.1.2.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.m2/repository/org/grails/grails-datastore-core/3.1.2.RELEASE/grails-datastore-core-3.1.2.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-orm/4.0.7.RELEASE/spring-orm-4.0.7.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

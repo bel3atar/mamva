@@ -24,9 +24,17 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="typeCulture" title="${message(code: 'enquete.typeCulture.label', default: 'Type Culture')}" />
+						<g:sortableColumn property="an" title="${message(code: 'enquete.an.label', default: 'Année')}" />
+					
+						<th><g:message code="enquete.visiteAutomne.label" default="Visite Automne" /></th>
+					
+						<th><g:message code="enquete.visiteBilan.label" default="Visite Bilan" /></th>
+					
+						<th><g:message code="enquete.visiteEte.label" default="Visite Ete" /></th>
 					
 						<th><g:message code="enquete.visiteFinHivernage.label" default="Visite Fin Hivernage" /></th>
+					
+						<th><g:message code="enquete.visiteFloraison.label" default="Visite Floraison" /></th>
 					
 					</tr>
 				</thead>
@@ -34,9 +42,17 @@
 				<g:each in="${enqueteInstanceList}" status="i" var="enqueteInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${enqueteInstance.id}">${fieldValue(bean: enqueteInstance, field: "typeCulture")}</g:link></td>
+						<td><g:link action="show" id="${enqueteInstance.an}">${fieldValue(bean: enqueteInstance, field: "an")}</g:link></td>
+					
+						<td>${fieldValue(bean: enqueteInstance, field: "visiteAutomne")}</td>
+					
+						<td>${fieldValue(bean: enqueteInstance, field: "visiteBilan")}</td>
+					
+						<td>${fieldValue(bean: enqueteInstance, field: "visiteEte")}</td>
 					
 						<td>${fieldValue(bean: enqueteInstance, field: "visiteFinHivernage")}</td>
+					
+						<td>${fieldValue(bean: enqueteInstance, field: "visiteFloraison")}</td>
 					
 					</tr>
 				</g:each>

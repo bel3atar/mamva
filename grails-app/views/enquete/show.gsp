@@ -32,11 +32,47 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${enqueteInstance?.visiteAutomne}">
+				<li class="fieldcontain">
+					<span id="visiteAutomne-label" class="property-label"><g:message code="enquete.visiteAutomne.label" default="Visite Automne" /></span>
+					
+						<span class="property-value" aria-labelledby="visiteAutomne-label"><g:link controller="visiteAutomne" action="show" id="${enqueteInstance?.visiteAutomne?.id}">${enqueteInstance?.visiteAutomne?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${enqueteInstance?.visiteBilan}">
+				<li class="fieldcontain">
+					<span id="visiteBilan-label" class="property-label"><g:message code="enquete.visiteBilan.label" default="Visite Bilan" /></span>
+					
+						<span class="property-value" aria-labelledby="visiteBilan-label"><g:link controller="visiteBilan" action="show" id="${enqueteInstance?.visiteBilan?.id}">${enqueteInstance?.visiteBilan?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${enqueteInstance?.visiteEte}">
+				<li class="fieldcontain">
+					<span id="visiteEte-label" class="property-label"><g:message code="enquete.visiteEte.label" default="Visite Ete" /></span>
+					
+						<span class="property-value" aria-labelledby="visiteEte-label"><g:link controller="visiteEte" action="show" id="${enqueteInstance?.visiteEte?.id}">${enqueteInstance?.visiteEte?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
 				<g:if test="${enqueteInstance?.visiteFinHivernage}">
 				<li class="fieldcontain">
 					<span id="visiteFinHivernage-label" class="property-label"><g:message code="enquete.visiteFinHivernage.label" default="Visite Fin Hivernage" /></span>
 					
 						<span class="property-value" aria-labelledby="visiteFinHivernage-label"><g:link controller="visiteFinHivernage" action="show" id="${enqueteInstance?.visiteFinHivernage?.id}">${enqueteInstance?.visiteFinHivernage?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${enqueteInstance?.visiteFloraison}">
+				<li class="fieldcontain">
+					<span id="visiteFloraison-label" class="property-label"><g:message code="enquete.visiteFloraison.label" default="Visite Floraison" /></span>
+					
+						<span class="property-value" aria-labelledby="visiteFloraison-label"><g:link controller="visiteFloraison" action="show" id="${enqueteInstance?.visiteFloraison?.id}">${enqueteInstance?.visiteFloraison?.encodeAsHTML()}</g:link></span>
 					
 				</li>
 				</g:if>
